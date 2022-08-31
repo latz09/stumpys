@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import mnOutline from '../../public/images/logo.png';
-
+ 
 const AboutBlurb = () => {
 	return (
-		<div className='grid gap-4 md:grid-cols-2 place-items-center max-w-7xl mx-auto h-[60vh] py-12'>
+		<div className='grid gap-4 md:grid-cols-2 place-items-center max-w-7xl mx-auto py-12'>
 			<div className=''>
 				<Image src={mnOutline} alt='' />
 			</div>
